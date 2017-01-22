@@ -1,0 +1,45 @@
+@import "../../template/bottomSheetTemp/bottomSheetTemp.wxss";
+@import "../../template/scrollableBottomSheetTemp/scrollableBottomSheetTemp.wxss";
+
+/**index.wxss**/
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.show-button {
+  width: 80%;
+  height: 80rpx;
+  margin-top: 100rpx;
+  background: #000;
+  border-radius: 12rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.show-button-text {
+  font-size: 32rpx;
+  line-height: 80rpx;
+  color: #fff;
+  text-align: center;
+}

@@ -1,0 +1,8 @@
+<template name="bottom-sheet-temp">
+    <view class="bottom-sheet-container">
+        <view class="bottom-sheet-mask" hidden="{{isShow == 1 ? false : true}}" bindtap="onDismissHandler"></view>
+        <view class="bottom-sheet-main" animation="{{sheetAnimation}}">
+
+        </view>
+    </view>
+</template>

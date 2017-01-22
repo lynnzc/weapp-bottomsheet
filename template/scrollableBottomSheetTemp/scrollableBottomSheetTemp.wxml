@@ -1,0 +1,7 @@
+<template name="scrollable-sheet-temp">
+  <view class="scrollable-sheet-container">
+    <view class="scrollable-sheet-mask" hidden="{{isShow == 1 ? false : true}}" bindtap="onDismissHandler"></view>
+    <view class="scrollable-sheet-main" animation="{{sheetAnimation}}" bindtouchstart="onScrollStart" catchtouchmove="onScrollMove" bindtouchcancel="onScrollCancel" bindtouchend="onScrollEnd" style="height: {{height}}px; bottom: {{-height}}px;">
+    </view>
+  </view>
+</template>
