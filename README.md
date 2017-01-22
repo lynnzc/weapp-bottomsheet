@@ -1,6 +1,10 @@
-### weapp-bottomsheet
-微信小程序，模仿 Android 底部弹出的 Bottom Sheet 样式控件效果   
-### License  
+# weapp-bottomsheet
+微信小程序，模仿 Android 底部弹出的 Bottom Sheet 样式控件效果  
+  
+# 运行效果  
+![动效](https://github.com/lynnzc/weapp-bottomsheet/blob/master/res/weapp-bs-snap.gif)  
+  
+# License  
 ```  
    Copyright 2017 lynn
 
