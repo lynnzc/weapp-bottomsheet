@@ -1,8 +1,8 @@
 ### weapp-bottomsheet
-微信小程序，模仿 Bottom Sheet 样式控件  
+微信小程序，模仿 Android 底部弹出的 Bottom Sheet 样式控件效果   
 ### License  
 ```  
-Copyright 2017 lynn
+   Copyright 2017 lynn
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
