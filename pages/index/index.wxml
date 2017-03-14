@@ -1,17 +1,16 @@
-<import src="../../template/bottomSheetTemp/bottomSheetTemp.wxml"/>
-<import src="../../template/scrollableBottomSheetTemp/scrollableBottomSheetTemp.wxml"/>
+<import src="../../template/bottomSheetBehavior/bottomSheetBehavior.wxml"/>
 <!--index.wxml-->
 <view class="container">
   <view class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <text class="userinfo-nickname">{{userInfo.nickName}}</text>
   </view>
-  <view class="show-button" bindtap="onCommenClickHandler">
-    <text class="show-button-text">弹出 Common</text>
+  <view class="show-button" bindtap="onCommonClickHandler">
+    <text class="show-button-text">弹出 Bottom Sheet</text>
   </view>
   <view class="show-button" bindtap="onScrollableClickHandler">
-    <text class="show-button-text">弹出 Scrollable</text>
+    <text class="show-button-text">弹出 Scrollable Bottom Sheet</text>
   </view>
 </view>
-<!--<template is="bottom-sheet-temp" data="{{isShow, sheetAnimation}}"></template>-->
-<template is="scrollable-sheet-temp" data="{{isShow, sheetAnimation, height: systemInfo.windowHeight}}"></template>
+
+<template is="bottom-sheet-behavior" data="{{_bottom_sheet_state}}"></template>

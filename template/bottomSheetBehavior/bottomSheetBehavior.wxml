@@ -1,0 +1,7 @@
+<template name="bottom-sheet-behavior">
+  <view class="scrollable-sheet-container">
+    <view class="scrollable-sheet-mask" hidden="{{_bottom_sheet_state.is_showed == 1 ? false : true}}" catchtap="onDismissHandler"></view>
+    <view class="scrollable-sheet-main" animation="{{_bottom_sheet_state.animation}}" catchtouchstart="onScrollStart" catchtouchmove="onScrollMove" bindtouchcancel="onScrollCancel" catchtouchend="onScrollEnd" style="height: {{ _bottom_sheet_state.offset}}px; bottom: {{-_bottom_sheet_state.offset}}px;">
+    </view>
+  </view>
+</template>

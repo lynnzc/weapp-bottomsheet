@@ -1,5 +1,4 @@
-@import "../../template/bottomSheetTemp/bottomSheetTemp.wxss";
-@import "../../template/scrollableBottomSheetTemp/scrollableBottomSheetTemp.wxss";
+@import "../../template/bottomSheetBehavior/bottomSheetBehavior.wxss";
 
 /**index.wxss**/
 .container {
